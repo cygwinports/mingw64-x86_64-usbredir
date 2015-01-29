@@ -1,0 +1,14 @@
+CROSS_HOST="x86_64-w64-mingw32"
+inherit cross
+
+NAME="mingw64-x86_64-usbredir"
+VERSION=0.7
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="USB redirection protocol library for Win64 toolchain"
+DESCRIPTION="usbredir is a network protocol for sending usb device traffic over
+a network connection. This package offering a parsing library, a usbredirhost
+library and several utilities implementing this protocol."
+HOMEPAGE="http://www.spice-space.org/page/UsbRedir"
+SRC_URI="http://spice-space.org/download/usbredir/usbredir-${VERSION}.tar.bz2"
+SRC_DIR="usbredir-${VERSION}"
